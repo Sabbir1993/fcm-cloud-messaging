@@ -1,0 +1,21 @@
+{
+    "name": "sabbir/fcm-cloud-messaging",
+    "description": "Cloud messaging using firebase Oauth authentication.",
+    "keywords": ["fcm", "google", "oauth"],
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1",
+        "google/apiclient": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sabbir\\FcmCloudMessaging\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sabbir1055",
+            "email": "sabbirchowdury000@gmail.com"
+        }
+    ]
+}
