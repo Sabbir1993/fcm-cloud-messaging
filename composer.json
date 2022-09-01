@@ -1,5 +1,5 @@
 {
-    "name": "sabbir/fcm-cloud-messaging",
+    "name": "sabbir1055/fcm-cloud-messaging",
     "description": "Cloud messaging using firebase Oauth authentication.",
     "keywords": ["fcm", "google", "oauth"],
     "license": "MIT",
