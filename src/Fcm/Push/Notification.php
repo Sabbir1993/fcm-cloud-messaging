@@ -1,6 +1,6 @@
 <?php
 
-namespace Fcm\Push;
+namespace Sabbir\FcmCloudMessaging\Fcm\Push;
 
 use Exception;
 

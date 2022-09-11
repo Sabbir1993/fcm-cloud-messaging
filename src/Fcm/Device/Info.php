@@ -1,6 +1,6 @@
 <?php
 
-namespace Fcm\Device;
+namespace Sabbir\FcmCloudMessaging\Fcm\Device;
 
 use Exception;
 use GuzzleHttp\Client;
