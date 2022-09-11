@@ -7,9 +7,9 @@ use GuzzleHttp\Client;
 
 class Info{
 
-    private string $deviceId;
-    private bool $details = false;
-    private array $headers;
+    private $deviceId;
+    private $details = false;
+    private $headers;
 
     public function __construct(array $serviceJson, object $guzzleClient = null)
     {
