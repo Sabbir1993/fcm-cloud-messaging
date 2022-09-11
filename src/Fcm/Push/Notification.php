@@ -5,12 +5,12 @@ namespace Sabbir\FcmCloudMessaging\Fcm\Push;
 use Exception;
 
 class Notification{
-    private string $recipients = "";
-    private array $topics = [];
-    private array $data = [];
-    private array $notification=[];
-    private object $client;
-    private array $serviceJson;
+    private $recipients = "";
+    private $topics = [];
+    private $data = [];
+    private $notification=[];
+    private $client;
+    private $serviceJson;
 
     public function __construct(array $serviceJson, object $guzzleClient = null)
     {

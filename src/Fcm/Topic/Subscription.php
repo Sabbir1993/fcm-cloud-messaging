@@ -6,10 +6,10 @@ use Exception;
 use GuzzleHttp\Client;
 
 class Subscription{
-    private array $devices = [];
-    private string $topicName;
-    private bool $subscriptionType = true;
-    private array $headers;
+    private $devices = [];
+    private $topicName;
+    private $subscriptionType = true;
+    private $headers;
 
     public function __construct(array $serviceJson, object $guzzleClient = null)
     {
