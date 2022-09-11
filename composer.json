@@ -4,7 +4,6 @@
     "keywords": ["fcm", "google", "oauth"],
     "license": "MIT",
     "require": {
-        "guzzlehttp/guzzle": "^6.3",
         "google/apiclient": "^2.12"
     },
     "autoload": {
